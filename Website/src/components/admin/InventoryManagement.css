@@ -1,0 +1,63 @@
+/* src/components/admin/InventoryManagement.css */
+
+.inventory-management {
+  padding: 20px;
+}
+
+.inventory-grid {
+  display: grid;
+  gap: 24px;
+}
+
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.inventory-table th,
+.inventory-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.inventory-table th {
+  background: #fafafa;
+  font-weight: 600;
+  color: #666;
+}
+
+.status-text {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.stock-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.history-table th,
+.history-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.history-table th {
+  background: #fafafa;
+  font-weight: 600;
+}

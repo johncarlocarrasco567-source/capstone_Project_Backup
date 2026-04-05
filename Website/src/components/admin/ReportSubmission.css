@@ -1,0 +1,58 @@
+/* src/components/admin/ReportSubmission.css */
+
+.report-submission {
+  padding: 20px;
+}
+
+.reports-table-container {
+  overflow-x: auto;
+}
+
+.reports-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.reports-table th,
+.reports-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.reports-table th {
+  background: #fafafa;
+  font-weight: 600;
+  color: #666;
+}
+
+.priority-badge,
+.status-badge {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.report-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.report-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.response-content {
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.response-content p {
+  margin: 8px 0;
+}

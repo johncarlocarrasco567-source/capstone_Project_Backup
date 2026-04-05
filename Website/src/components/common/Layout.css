@@ -1,0 +1,22 @@
+/* src/components/common/Layout.css */
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 260px;
+  background: #f5f7fa;
+}
+
+.content {
+  padding: 24px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+  }
+}
